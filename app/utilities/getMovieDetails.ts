@@ -10,7 +10,5 @@ export async function getMovieDetails(movieId:number) {
     }
     catch(error){
         return error
-    }
-
-    
+    }    
 }

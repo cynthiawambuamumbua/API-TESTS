@@ -19,7 +19,7 @@ const MovieDetail = ({ params: { movieId } }: { params: { movieId: number } }) =
     return (
     <div>
         {movieDetail && (
-        <div>
+        <div className="px-7">
             <img src={`https://image.tmdb.org/t/p/w500/${movieDetail.poster_path}`} alt={movieDetail.title}/>
             <h2>{movieDetail.title}</h2>
             <p>Overview: {movieDetail.overview}</p>
